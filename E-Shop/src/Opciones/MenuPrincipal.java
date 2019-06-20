@@ -23,6 +23,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         this.setIconImage(icon);
         this.setTitle("E-Shop");//titulo        
         this.setLocationRelativeTo(null);//centrado
+        this.setResizable(false);//sin maximizar
     }
 
     /**
