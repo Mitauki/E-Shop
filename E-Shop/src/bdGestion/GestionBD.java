@@ -22,7 +22,7 @@ public class GestionBD {
     Statement sentencia = null;
     ResultSet resultado = null;
     String DRIVER = "org.sqlite.JDBC";
-    String NOMBREBD = "Compra - Venta de Productos.sqlite";
+    String NOMBREBD = "CompraVenta_eshop";
     String URL = "jdbc:sqlite:"+NOMBREBD;
     
     
@@ -35,9 +35,8 @@ public class GestionBD {
         }catch(ClassNotFoundException | SQLException   e){
             JOptionPane.showMessageDialog(null, "Error"+e,"Error",JOptionPane.ERROR_MESSAGE);
         }
+        JOptionPane.showMessageDialog(null,"Base de datos Creada!","Exito!",
+                JOptionPane.WARNING_MESSAGE);
         
-    }//*fin codigo
-    
-    
-    
+    }//*fin codigo 
 }
