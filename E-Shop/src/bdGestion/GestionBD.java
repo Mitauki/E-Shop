@@ -35,7 +35,6 @@ public class GestionBD {
         }catch(ClassNotFoundException | SQLException   e){
             JOptionPane.showMessageDialog(null, "Error"+e,"Error",JOptionPane.ERROR_MESSAGE);
         }
-<<<<<<< HEAD
         JOptionPane.showMessageDialog(null,"Base de Datos creada con Exito :D");
     }//*fin codigo  
  
@@ -208,10 +207,8 @@ public class GestionBD {
         //*gbd.EliminarTabla();
     }
     
-=======
-        JOptionPane.showMessageDialog(null,"Base de datos Creada!","Exito!",
-                JOptionPane.WARNING_MESSAGE);
-        
+
+     
     }//*fin codigo 
->>>>>>> 13c55b893509e59e5c396ddd0196920931c7ac83
-}
+
+
